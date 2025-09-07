@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Trang giới thiệu bản thân -->
+    <div class="container">
+        <div class="profile">
+            <img src="https://th.bing.com/th/id/OIP.Y9MaxiVxV-8HnzG7MuNC3wHaE8?w=249&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+                alt="Ảnh đại diện" class="avatar">
+            <h1>Huỳnh Bùi Thái Bảo</h1>
+            <p>Web Developer</p>
+            <p>Chào bạn! Tôi là một lập trình viên đam mê công nghệ và thiết kế web.</p>
+        </div>
+
+        <!-- Danh sách môn học yêu thích -->
+        <h2>Môn học yêu thích</h2>
+        <ul>
+            <li>HTML và CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+
+        <!-- Thời khóa biểu -->
+        <h2>Thời khóa biểu</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Thứ</th>
+                    <th>Thời gian</th>
+                    <th>Môn học</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Thứ 2</td>
+                    <td>8:00 - 10:00</td>
+                    <td>HTML & CSS</td>
+                </tr>
+                <tr>
+                    <td>Thứ 3</td>
+                    <td>10:00 - 12:00</td>
+                    <td>JavaScript</td>
+                </tr>
+                <tr>
+                    <td>Thứ 4</td>
+                    <td>14:00 - 16:00</td>
+                    <td>React</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Form đăng ký thông tin -->
+        <h2>Đăng ký thông tin</h2>
+        <form action="#" method="post">
+            <label for="name">Tên:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Số điện thoại:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+
+            <label for="gender">Giới tính:</label>
+            <input type="radio" id="male" name="gender" value="Nam"> Nam
+            <input type="radio" id="female" name="gender" value="Nữ"> Nữ<br><br>
+
+            <button type="submit">Gửi</button>
+        </form>
+</body>
+
+</html>
